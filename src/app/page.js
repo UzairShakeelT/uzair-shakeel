@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import MobileApps from "@/components/projects/MobileApps";
-import DotNetApps from "@/components/projects/DotNetApps";
 import WebProjects from "@/components/projects/WebProjects";
 
 export default function Home() {
@@ -27,10 +26,6 @@ export default function Home() {
 
           <div className="section">
             <MobileApps />
-          </div>
-
-          <div className="section">
-            <DotNetApps />
           </div>
 
           <div className="section">
